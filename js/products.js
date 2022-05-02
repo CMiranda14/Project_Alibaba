@@ -1,5 +1,6 @@
 let products = [
 
+    /*product_id*/ /*product_name*/ /*descripciones*/
     [1200,	'Macbook Pro (2017)',	                             'The ultimate pro notebook. MacBook Pro features faster processors ;upgraded memory;the Apple T2 chip;and a Retina display with True Tone technology.'],
     [1300,	'Macbook Air (2015)', 	                             'MacBook Air lasts up to an incredible 12 hours between charges So from your morning coffee till your evening commute;you can work unplugged. When itís time to kick back and relax;you can get up to 12 hours of iTunes movie playback.'],
     [1400,	'Iphone X',		                                     'The iPhone X display is so immersive the device itself disappears into the experience.' ],

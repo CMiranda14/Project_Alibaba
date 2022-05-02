@@ -1,5 +1,6 @@
 let user_has_creditcard = [
 
+    /*id_usuario*/ /*número_tarjeta_crédito*/
     [100,	'2.56324E+15'],
     [101,	'1.35632E+15'],
     [102,	'6.84323E+15'],

@@ -1,4 +1,7 @@
 let orden =[
+
+   
+    /*ID_pedido*/ /*artículo_total*/ /*tarifa_envío*/ /*impuesto*/ /*costo_total*/ /*fecha_pedido*/ /*fecha_entrega*/ /*nombre_envío*/ /*dirección_envío*/ /*número_seguimiento*/ /*estado_entrega*/
     [1000,  4,  7,  0.0925, 50.02,	'17/10/2018',   '20/10/2018', 'Anna Addison',	'1325 Candy Rd, San Francisco, CA 96123	ZW60001', 	1],
     [1001,	5,	8,	0.06,	62.45,	'15/10/2018',	'18/10/2018', 'Carol Campbell',	'1931 Brown St, Gainesville, FL 85321	AB61001' ,	0],
     [1002,	7,	10,	0.087,	40.33,	'14/10/2018',	'17/10/2018', 'Julia Jones', 	'1622 Seaside St, Seattle, WA 32569 	CD62001 ',	1],

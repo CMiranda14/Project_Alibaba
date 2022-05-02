@@ -1,5 +1,7 @@
 let orders_paid_creditcard = [
 
+
+    /*número_de_tarjeta_de_crédito*/ /*ID_de_pedido*/
     ['2.56324E+15',	1000],
     ['1.35632E+15',	1001],
     ['6.84323E+15',	1002],

@@ -1,5 +1,6 @@
 let categoria =[
 
+    /*categoría_id*/ /*categoría_nombre*/
     [4000,	'Laptops'],
     [4100,	'Mobile phones'],
     [4200,	'Tablets'],

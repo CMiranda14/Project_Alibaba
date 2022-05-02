@@ -1,5 +1,6 @@
 let products_belong_category = [
 
+    /*id_producto*/ /*id_categoría*/
     [1200,	4000],
     [1300,	4000],
     [1400,	4100],

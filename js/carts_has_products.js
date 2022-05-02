@@ -1,5 +1,5 @@
 let carts =[
-
+  /*id_carrito_de_compras*/ /*ID_del_Producto*/ /*id_opciones*/ /*cantidad*/
     [3000,	1200,	1201,	2],
     [3000,	1200,	1202,	1],
     [3000,	1300,	1301,	3],

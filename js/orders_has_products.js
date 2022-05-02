@@ -1,5 +1,6 @@
 let order_has_products = [
 
+    /*order_id*/ /*product_id*/ /*option_id*/ /*cantidad*/
     [1000,	1200,	1201,	2],
     [1000,	1200,	1202,	1],
     [1000,	1300,	1301,	3],

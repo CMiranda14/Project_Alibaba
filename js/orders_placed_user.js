@@ -1,5 +1,7 @@
 let orders_placed_user = [
 
+
+    /*id_usuario*/ /*id_pedido*/
     [100,	1000],
     [101,	1001],
     [102,	1002],

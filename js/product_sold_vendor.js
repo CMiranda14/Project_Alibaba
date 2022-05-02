@@ -1,5 +1,6 @@
 let product_sold_vendor = [
 
+    /*id_proveedor*/ /*id_producto*/
     [5000,	1200],
     [5000,	1300],
     [5100,	1400],
