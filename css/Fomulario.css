@@ -1,0 +1,93 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/538/894/non_2x/abstract-black-hexagon-pattern-on-yellow-neon-background-technology-style-honeycomb-vector.jpg");
+}
+
+
+.registro{
+    margin:auto;
+    margin-top:10rem;
+    width:90rem;
+    height:50rem;
+    background-color:rgba(8, 25, 45, 0.91);
+    position:relative;
+    border-radius:2%;
+
+}
+
+.barra{
+    width:40rem;
+    height:40rem;
+    position:absolute;
+    margin-top:5rem;
+    margin-left:5rem;
+}
+
+.barra img{
+    height:100%;
+    width:100%;
+    border-radius:2%;
+}
+
+.Formulario{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+
+    margin-left:41rem;
+    margin-top:5rem;
+
+  
+}
+
+.Formulario label{
+    margin-top:3rem;
+    margin-left:14rem;
+}
+
+.Formulario p{
+    font-size:1.6rem;
+    margin-left:7rem;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.821);
+
+}
+
+.Formulario input{
+    margin-left:2rem;
+    margin-top:3rem;
+    outline: none;
+    border:solid rgba(255, 255, 255, 0.821) 0.3rem;
+    background-color: rgba(255, 255, 255, 0.821);
+
+    font-size:1.6rem;
+}
+
+.bottom{
+    margin-top:3rem;
+    margin-left:21rem;
+    font-size:1.2rem;
+
+    height:3rem;
+    width:6rem;
+    background-color:rgb(224, 128, 2);
+    padding:0.5rem 8rem 2rem 2rem;
+    border-radius:5%;
+    font-size:1.6rem;
+
+    cursor:pointer;
+    font-weight: 600;
+   
+}
+
+
+.bottom:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+        background-color: rgba(246, 161, 70, 0.918);
+    }
+
+
+
+

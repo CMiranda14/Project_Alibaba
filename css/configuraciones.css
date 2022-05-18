@@ -6,7 +6,16 @@
 
 html{
     font-size: 10px;
-    font-family: monospace;
+    font-family: verdana;
+}
+
+
+:root{
+
+    --fondo: rgb(219, 212, 210);
+    --texto: rgb(74, 73, 73);
+    --texto2:rgb(255, 255, 255);
+    --boton: rgb(0, 109, 86);
 }
 
 

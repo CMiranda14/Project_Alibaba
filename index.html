@@ -6,15 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+
+
+
     <!--Archivos Css-->
     <link rel="stylesheet" href="css/configuraciones.css">
+    <link rel="stylesheet" href="css/Fomulario.css">
 </head>
 <body>
 
+    <!-- FOMRULARIO DE LOGIN-->
+    <div class="registro">
+        <div class="barra"><img src="https://play-lh.googleusercontent.com/D09AsmYSxDpMWRSXbu54j2R_8sR-1OgbV2DXSI9_HIuY2IMZ8b8JgscWol6mikknaks" alt=""></div>
+        <form class="Formulario" action="" id="login" autocomplete="off">
+            <br><br><br>
+            <label class="User" for="">
+             <p>Username</p>
+                <input type="texto"  id="txtusername">
+            </label>
+
+            <label class="Pass" for="">
+                <p>Password</p>
+                <input type="password"  id="txtpassword">
+            </label>
+
+            <div class="bottom" id="btIniciar" >Entrar</div>
+        </form>
+
+    
+    </div>
 
     <!--Archivos de Programación-->
-
-    <script src="js/main.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/login.js" type="module"></script>
     
 </body>
 </html>

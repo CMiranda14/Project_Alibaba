@@ -1,0 +1,94 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/538/894/non_2x/abstract-black-hexagon-pattern-on-yellow-neon-background-technology-style-honeycomb-vector.jpg");
+}
+
+.vt{
+    margin:auto;
+    margin-top:10rem;
+    width:90rem;
+    height:50rem;
+    background-color:rgba(8, 25, 45, 0.91);
+    position:relative;
+    border-radius:2%;
+}
+
+
+
+.bt{
+    margin-left:80rem;
+    font-size:1.2rem;
+
+   
+    background-color:rgb(224, 128, 2);
+    padding:0.6rem;
+    border-radius:5%;
+    font-size:1.6rem;
+
+    cursor:pointer;
+    font-weight: 600;
+    text-decoration:none;
+    color:rgba(12, 12, 59, 0.851);
+   
+}
+
+
+.bt:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+        background-color: rgba(246, 161, 70, 0.918);
+    }
+
+.barra{
+        width:40rem;
+        height:40rem;
+        position:absolute;
+        margin-top:3rem;
+        margin-left:4rem;
+    }
+
+
+.barra img{
+        height:100%;
+        width:100%;
+        border-radius:2%;
+}
+
+.us {
+    position:absolute;
+    margin-left:55rem;
+    margin-top:7rem;
+}
+
+.data_user{
+
+    background-color: aliceblue;
+    border-radius: 2%;
+    width:40rem;
+    height:40rem;
+    margin-left:47rem;
+    margin-top:2rem;
+    display:flex;
+
+}
+
+
+
+.data_user div{
+    margin-top:5rem;
+    margin-left:0.8rem;
+}
+
+.data_user p{
+    margin-top:1rem;
+    background-color: rgba(197, 227, 254, 0.81);
+    border-radius:2%;
+    padding:1rem;
+    font-weight:600;
+    font-size:0.97rem;
+}
+
+
+
+
