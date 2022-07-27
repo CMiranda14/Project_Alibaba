@@ -30,6 +30,9 @@ PARAMETROS:
   */
 
 
+
+
+
    function Lista_Usuarios(){
     var ListaUsuarios = JSON.parse(localStorage.getItem('ListaUsuarios'));
 
@@ -70,6 +73,13 @@ export function validardatos(pUsuario, pContrasena){
 
   
 }
+
+
+
+
+
+
+
 
 
 

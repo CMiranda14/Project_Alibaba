@@ -1,5 +1,6 @@
 import {validardatos} from "./login.js";
 
+
 document.querySelector('#btIniciar').addEventListener('click', 
 iniciarSesion);
 
@@ -49,6 +50,20 @@ function ingresar(){
             
     }
     }
+    
+
+
+
+    //MENU
+
+ 
+
+
+    
+                
+
+
+
 
 
 
