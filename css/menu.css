@@ -1,0 +1,17 @@
+.menu{
+    height: 6rem;
+    background-color: #FF6C01;
+
+    font-family: 'Signika', sans-serif;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.text{
+    margin: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
