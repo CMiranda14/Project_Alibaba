@@ -1,0 +1,60 @@
+#ordenes {
+    padding: 5rem;
+    width: 100rem;
+    height: auto;
+    margin-left: 34.5rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-end;
+
+}
+.cajas{
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 7px 10px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 10px 0px rgba(0,0,0,0.75);
+
+    border-right: 1px solid black;
+    color: black;
+    text-align: justify;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 3rem;
+    padding: 1.6rem;
+    height: 26.6rem;
+    width: 22rem;
+
+    background-color: #ECF0F1 ;
+    /*opacity: 0.5;*/
+    border-radius: 2rem;
+}
+.titulo{
+    text-align: center;
+    width: 100rem;
+    margin: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight:600;
+    font-size: 4rem;
+}
+.img{
+    background-color: orange;
+    border-radius: 6rem;
+    float: left;
+    margin-left: 13rem;
+    width: 6rem;
+}
+
+
+
+
+
+
+
+
