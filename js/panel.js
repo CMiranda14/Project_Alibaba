@@ -1,19 +1,75 @@
+import {Category} from "./category.js"
+import {ordenes} from "./order.js"
+
+let categorias = document.getElementById("categorias");
+
+let title = '<h1 class="titulo">' + ' Categorias Alibaba ' +  '</h1>';
+
+
+let div = '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/Group.png?raw=true" class="img" style="width:90px;">' +
+                '<p>' + Category[0].ID_categoria +  '</p>'+
+                '<p>' + Category[0].id +  '</p>'+
+            '</div>'  +
+            
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/phone.png?raw=true" class="img" style="width:40px;">' +
+                '<p>' + Category[1].ID_categoria +  '</p>'+
+                '<p>' + Category[1].id  +  '</p>'+
+            '</div>' +
+
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/ipad.png?raw=true" class="img" style="width:90px;">' +
+                '<p>' + Category[2].ID_categoria +  '</p>'+
+                '<p>' + Category[2].id +  '</p>'+
+            '</div>' +
+
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/Server.png?raw=true" class="img" style="width:40px;">' +
+                '<p>' + Category[3].ID_categoria +  '</p>'+
+                '<p>' + Category[3].id  +  '</p>'+
+            '</div>' +
+
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/Monitor.png?raw=true" class="img" style="width:70px;">' +
+                '<p>' + Category[4].ID_categoria +  '</p>'+
+                '<p>' + Category[4].id +  '</p>'+
+            '</div>' +
+
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/Wire.png?raw=true" class="img" style="width:48px;">' +
+                '<p>' + Category[5].ID_categoria +  '</p>'+
+                '<p>' + Category[5].id +  '</p>'+
+            '</div>' +
+
+            '<div class="cajas">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/Headphones.png?raw=true" class="img" style="width: 70px;">' +
+                '<p>' + Category[6].ID_categoria +  '</p>'+
+                '<p>' + Category[6].id +  '</p>'+
+            '</div>'
+
+categorias.innerHTML =  title + div; 
+
+
+
+/*********************************************************************************************************** */
+
 let ordenes = document.getElementById("ordenes");
 
-let title = '<h1 class="titulo">' + ' Ordenes Alibaba ' +  '</h1>';
+let title2 = '<h1 class="titulo">' + ' Ordenes Alibaba ' +  '</h1>';
           
 
 let items = '<div class="cajas">' +
               '<img src="https://github.com/MariaR17/vector/blob/main/img_muj.png?raw=true" alt="" class="img">' +
-                '<p>' + 'ID orden : 1000'+  '</p>'+
-                '<p>' + 'Total de productos : 4' +  '</p>'+
-                '<p>' + 'Envíos gratis: 7' +  '</p>'+
-                '<p>' + 'Impuestos: 0.0925' +  '</p>'+
-                '<p>' + 'Total: 50.02' +  '</p>'+
-                '<p>' + 'Fecha: 17/2018' +  '</p>'+
-                '<p>' + 'Nombre: Anna Addison' +  '</p>'+
-                '<p>' + 'Entrega: 20/2018' +  '</p>'+
-                '<p>' + 'Direccón: San Francisco, CA 96123' +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].t  +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
+                '<p>' + ordenes[0].id +  '</p>'+
             '</div>'  +
 
             '<div class="cajas">' +
@@ -91,4 +147,4 @@ let items = '<div class="cajas">' +
             '</div>'
 
 
-ordenes.innerHTML =  title +  items; 
+ordenes.innerHTML =  title2 +  items; 
