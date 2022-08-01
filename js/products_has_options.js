@@ -1,34 +1,82 @@
-let products_has_options = [
+const products_has_options = [
 
     /*product_id*/ /*option_id*/ /*cantidad*/ /*precio*/ /*on_sale*/ /*especificaciones*/
-    [1200,	1201,	3,	 1299,	1,	'Macbook Pro 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels'],
-    [1200,	1202,	2,	 2199,	0,	'Macbook Pro 15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels'],
-    [1300,	1301,	1,	 999,	0,	'Macbook Air 11.6-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors'],
-    [1300,	1302,	4,	 1099,	1,	'Macbook Air 13.3-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors'],
-    [1400,	1401,	5,   799,	1,	'Iphone X Storage capacity 128 GB'],
-    [1400,	1402,	7,	 899,	0,	'Iphone X Storage capacity 256 GB'],
-    [1500,	1501,	8,	 399,	0,	'Iphone 7 Storage capacity 64 GB'],
-    [1500,	1502,	9,	 499,	1,	'Iphone 7 Storage capacity 32 GB'],
-    [1600,	1601,	4,	 599,	0,	'Iphone 8 Storage capacity 64 GB '],
-    [1600,	1602,	7,	 699,	1,  'Iphone 8 Storage capacity 128 GB'],
-    [1700,	1701,	20,	 899,	1,	'Ipad Air 9.7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'],
-    [1700,	1702,	9,	 999,	0,	'Ipad Air 12-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'],
-    [1800,	1801,	40,	 499,	1,	'Ipad Mini 7.9-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'],
-    [1800,	1802,	100, 599,	1,	'Ipad Mini 10-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'],
-    [1900,	1901,	4,	 650,	1,	'ESC4000 G3 Server with 2U 4-GPU Hybrid Computing Power with Mass Storage Capability'],
-    [1900,	1902,	6,	 750,	0,	'ESC8000 G4 Server with High-density 4U GPU server support 8 GPUs'],
-    [2000,	2001,	1,	 450,	0,	'RS100-E8-PI2 Server with Smart compact 1U server'],
-    [2000,	2002,	2,	 550,	1,	'RS300-E9-PI4 Server with Flagship Model with Versatile Expandability'],
-    [2100,	2101,	7,	 1250,	1,	'Dell XPS 13 PC with 13.3-inch Intel Core i5-8250U. 8GB memory/128GB SSD'],
-    [2100,	2102,	1,	 1650,	0,	'Dell XPS 15 PC with 15.6-inch Intel Core i5-7300HQ. 8GB memory/256GB SSD'],
-    [2200,	2201,	10,	 600,	0,	'Dell Inspiron 15 PC with 15.6-inch Full HD. Intel Core i5-8250U. 8GB memory/1TB HDD'],
-    [2200,	2202,	50,	 700,	1,	'Dell Inspiron 24 PC with 23.8-in Full HD. Intel Core i5-7200U. 8GB memory/1TB SATA'],
-    [2300,	2301,	40,	 15,	0,	'Monoprice Ultra Slim 24Hz High Speed HDMI Cable, 10Gbps, 36AWG, YUV 4:2:0, 6ft, Black'],
-    [2300,	2302,	30,	 25,	1,	'Monoprice Ultra Slim 60Hz High Speed HDMI Cable, 18Gbps, 40AWG, YUV 6:4:0, 8ft, Black'],
-    [2400,	2401,	1,	 10,	0,	'Monoprice Commercial 32Hz High Speed HDMI Cable, 10Gbps, 24AWG, CL2, 6ft, Black'],
-    [2400,	2402,	10,	 20,	0,	'Monoprice Commercial 80Hz High Speed HDMI Cable, 18Gbps, 40AWG, CL2, 8ft, Black'],
-    [2500,	2501,	1,	 250,	1,	'1000XM1 Wireless Headphones 20 Hzñ20,000 Hz (44 kHz Sampling)/ 20 Hzñ40,000 Hz (LDAC 96 kHz Sampling, 990 kbps)'],
-    [2500,	2502,	20,	 350,   1,	'1200XM3 Wireless Headphones 40 Hzñ40,000 Hz (54 kHz Sampling)/40 Hzñ60,000 Hz (LDAC 120 kHz Sampling, 800 kbps)'],
-    [2600,	2601,	9,	 800,	0,	'Sony IER-M7 In-ears Headphone. Driver Unit by Quad-balanced armature. Frequency Response 5 Hzñ20,000 Hz'],
-    [2600,	2602,	60,	 900,	1,	'Sony IER-M9 In-ears Headphone. Driver Unit by Penta Balanced Armature. Frequency Response 10 Hzñ40,000 Hz'],
+    {id:1200,	op:1201,	cantidad:3,	 precio:1299,	on:1,	text:'Macbook Pro 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels'},
+    {id:1200,	op:1202,	cantidad:2,	 precio:2199,	on:0,	text:'Macbook Pro 15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels'},
+    {id:1300,	op:1301,	cantidad:1,	 precio:999,	on:0,	text:'Macbook Air 11.6-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors'},
+    {id:1300,	op:1302,	cantidad:4,	 precio:1099,	on:1,	text:'Macbook Air 13.3-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors'},
+    {id:1400,	op:1401,	cantidad:5,  precio: 799,	on:1,	text:'Iphone X Storage capacity 128 GB'},
+    {id:1400,	op:1402,	cantidad:7,	 precio:899,	on:0,	text:'Iphone X Storage capacity 256 GB'},
+    {id:1500,	op:1501,	cantidad:8,	 precio:399,	on:0,	text:'Iphone 7 Storage capacity 64 GB'},
+    {id:1500,	op:1502,	cantidad:9,	 precio:499,	on:1,	text:'Iphone 7 Storage capacity 32 GB'},
+    {id:1600,	op:1601,	cantidad:4,	 precio:599,	on:0,	text:'Iphone 8 Storage capacity 64 GB '},
+    {id:1600,	op:1602,	cantidad:7,	 precio:699,	on:1,   text: 'Iphone 8 Storage capacity 128 GB'},
+    {id:1700,	op:1701,	cantidad:20, precio: 899,	on:1,	text:'Ipad Air 9.7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'},
+    {id:1700,	op:1702,	cantidad:9,	 precio:999,	on:0,	text:'Ipad Air 12-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'},
+    {id:1800,	op:1801,	cantidad:40, precio: 499,	on:1,	text:'Ipad Mini 7.9-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'},
+    {id:1800,	op:1802,	cantidad:100,precio: 599,	on:1,	text:'Ipad Mini 10-inch (diagonal) LED-backlit Multi-Touch display with IPS technology'},
+    {id:1900,	op:1901,	cantidad:4,	 precio:650,	on:1,	text:'ESC4000 G3 Server with 2U 4-GPU Hybrid Computing Power with Mass Storage Capability'},
+    {id:1900,	op:1902,	cantidad:6,	 precio:750,	on:0,	text:'ESC8000 G4 Server with High-density 4U GPU server support 8 GPUs'},
+    {id:2000,	op:2001,	cantidad:1,	 precio:450,	on:0,	text:'RS100-E8-PI2 Server with Smart compact 1U server'},
+    {id:2000,	op:2002,	cantidad:2,	 precio:550,	on:1,	text:'RS300-E9-PI4 Server with Flagship Model with Versatile Expandability'},
+    {id:2100,	op:2101,	cantidad:7,	 precio:1250,	on:1,	text:'Dell XPS 13 PC with 13.3-inch Intel Core i5-8250U. 8GB memory/128GB SSD'},
+    {id:2100,	op:2102,	cantidad:1,	 precio:1650,	on:0,	text:'Dell XPS 15 PC with 15.6-inch Intel Core i5-7300HQ. 8GB memory/256GB SSD'},
+    {id:2200,	op:2201,	cantidad:10, precio: 600,	on:0,	text:'Dell Inspiron 15 PC with 15.6-inch Full HD. Intel Core i5-8250U. 8GB memory/1TB HDD'},
+    {id:2200,	op:2202,	cantidad:50, precio: 700,	on:1,	text:'Dell Inspiron 24 PC with 23.8-in Full HD. Intel Core i5-7200U. 8GB memory/1TB SATA'},
+    {id:2300,	op:2301,	cantidad:40, precio: 15,	on:0,	text:'Monoprice Ultra Slim 24Hz High Speed HDMI Cable, 10Gbps, 36AWG, YUV 4:2:0, 6ft, Black'},
+    {id:2300,	op:2302,	cantidad:30, precio: 25,	on:1,	text:'Monoprice Ultra Slim 60Hz High Speed HDMI Cable, 18Gbps, 40AWG, YUV 6:4:0, 8ft, Black'},
+    {id:2400,	op:2401,	cantidad:1,	 precio:10,	    on:0,	text:'Monoprice Commercial 32Hz High Speed HDMI Cable, 10Gbps, 24AWG, CL2, 6ft, Black'},
+    {id:2400,	op:2402,	cantidad:10, precio: 20,	on:0,	text:'Monoprice Commercial 80Hz High Speed HDMI Cable, 18Gbps, 40AWG, CL2, 8ft, Black'},
+    {id:2500,	op:2501,	cantidad:1,	 precio:250,	on:1,	text:'1000XM1 Wireless Headphones 20 Hzñ20,000 Hz (44 kHz Sampling)/ 20 Hzñ40,000 Hz (LDAC 96 kHz Sampling, 990 kbps)'},
+    {id:2500,	op:2502,	cantidad:20, precio: 350,   on:1,	text:'1200XM3 Wireless Headphones 40 Hzñ40,000 Hz (54 kHz Sampling)/40 Hzñ60,000 Hz (LDAC 120 kHz Sampling, 800 kbps)'},
+    {id:2600,	op:2601,	cantidad:9,	 precio:800,	on:0,	text:'Sony IER-M7 In-ears Headphone. Driver Unit by Quad-balanced armature. Frequency Response 5 Hzñ20,000 Hz'},
+    {id:2600,	op:2602,	cantidad:60, precio: 900,	on:1,	text:'Sony IER-M9 In-ears Headphone. Driver Unit by Penta Balanced Armature. Frequency Response 10 Hzñ40,000 Hz'},
 ];
+
+
+function products_has_optons(){
+
+    let categorias = document.querySelector("#caja_products_option");
+
+    let tabla3 = '<table class="TablaA" border="0">'+
+                '<tr class="columnas2">'+'<td class="casillas2">'+'ID Producto'+'</td>'+'<td class="casillas2">'+'ID opción'+ '</td>' +'<td class="casillas2">'+'cantidad'+ '</td>' +'<td class="casillas2">'+'Precio'+ '</td>' +'<td class="casillas2">'+'Disponible'+ '</td>' +'<td class="casillas2">'+'Especificaciones'+ '</td>' +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[0].id  +'</td>'+'<td class="casillasA">'+products_has_options[0].op +'<td class="casillasA">'+products_has_options[0].cantidad +'<td class="casillasA">'+products_has_options[0].precio +'<td class="casillasA">'+products_has_options[0].on +'<td class="casillast">'+products_has_options[0].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[1].id  +'</td>'+'<td class="casillasA">'+products_has_options[1].op +'<td class="casillasA">'+products_has_options[1].cantidad +'<td class="casillasA">'+products_has_options[1].precio +'<td class="casillasA">'+products_has_options[1].on +'<td class="casillast">'+products_has_options[1].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[2].id  +'</td>'+'<td class="casillasA">'+products_has_options[2].op +'<td class="casillasA">'+products_has_options[2].cantidad +'<td class="casillasA">'+products_has_options[2].precio +'<td class="casillasA">'+products_has_options[2].on +'<td class="casillast">'+products_has_options[2].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[3].id  +'</td>'+'<td class="casillasA">'+products_has_options[3].op +'<td class="casillasA">'+products_has_options[3].cantidad +'<td class="casillasA">'+products_has_options[3].precio +'<td class="casillasA">'+products_has_options[3].on +'<td class="casillast">'+products_has_options[3].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[4].id  +'</td>'+'<td class="casillasA">'+products_has_options[4].op +'<td class="casillasA">'+products_has_options[4].cantidad +'<td class="casillasA">'+products_has_options[4].precio +'<td class="casillasA">'+products_has_options[4].on +'<td class="casillast">'+products_has_options[4].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[5].id  +'</td>'+'<td class="casillasA">'+products_has_options[5].op +'<td class="casillasA">'+products_has_options[5].cantidad +'<td class="casillasA">'+products_has_options[5].precio +'<td class="casillasA">'+products_has_options[5].on +'<td class="casillast">'+products_has_options[5].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[6].id  +'</td>'+'<td class="casillasA">'+products_has_options[6].op +'<td class="casillasA">'+products_has_options[6].cantidad +'<td class="casillasA">'+products_has_options[6].precio +'<td class="casillasA">'+products_has_options[6].on +'<td class="casillast">'+products_has_options[6].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[7].id  +'</td>'+'<td class="casillasA">'+products_has_options[7].op +'<td class="casillasA">'+products_has_options[7].cantidad +'<td class="casillasA">'+products_has_options[7].precio +'<td class="casillasA">'+products_has_options[7].on +'<td class="casillast">'+products_has_options[7].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[8].id  +'</td>'+'<td class="casillasA">'+products_has_options[8].op +'<td class="casillasA">'+products_has_options[8].cantidad +'<td class="casillasA">'+products_has_options[8].precio +'<td class="casillasA">'+products_has_options[8].on +'<td class="casillast">'+products_has_options[8].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[9].id  +'</td>'+'<td class="casillasA">'+products_has_options[9].op +'<td class="casillasA">'+products_has_options[9].cantidad +'<td class="casillasA">'+products_has_options[9].precio +'<td class="casillasA">'+products_has_options[9].on +'<td class="casillast">'+products_has_options[9].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[10].id +'</td>'+'<td class="casillasA">'+products_has_options[10].op +'<td class="casillasA">'+products_has_options[10].cantidad +'<td class="casillasA">'+products_has_options[10].precio +'<td class="casillasA">'+products_has_options[10].on +'<td class="casillast">'+products_has_options[10].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[11].id +'</td>'+'<td class="casillasA">'+products_has_options[11].op +'<td class="casillasA">'+products_has_options[11].cantidad +'<td class="casillasA">'+products_has_options[11].precio +'<td class="casillasA">'+products_has_options[11].on +'<td class="casillast">'+products_has_options[11].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[12].id +'</td>'+'<td class="casillasA">'+products_has_options[12].op +'<td class="casillasA">'+products_has_options[12].cantidad +'<td class="casillasA">'+products_has_options[12].precio +'<td class="casillasA">'+products_has_options[12].on +'<td class="casillast">'+products_has_options[12].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[13].id +'</td>'+'<td class="casillasA">'+products_has_options[13].op +'<td class="casillasA">'+products_has_options[13].cantidad +'<td class="casillasA">'+products_has_options[13].precio +'<td class="casillasA">'+products_has_options[13].on +'<td class="casillast">'+products_has_options[13].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[14].id +'</td>'+'<td class="casillasA">'+products_has_options[14].op +'<td class="casillasA">'+products_has_options[14].cantidad +'<td class="casillasA">'+products_has_options[14].precio +'<td class="casillasA">'+products_has_options[14].on +'<td class="casillast">'+products_has_options[14].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[15].id +'</td>'+'<td class="casillasA">'+products_has_options[15].op +'<td class="casillasA">'+products_has_options[15].cantidad +'<td class="casillasA">'+products_has_options[15].precio +'<td class="casillasA">'+products_has_options[15].on +'<td class="casillast">'+products_has_options[15].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[16].id +'</td>'+'<td class="casillasA">'+products_has_options[16].op +'<td class="casillasA">'+products_has_options[16].cantidad +'<td class="casillasA">'+products_has_options[16].precio +'<td class="casillasA">'+products_has_options[16].on +'<td class="casillast">'+products_has_options[16].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[17].id +'</td>'+'<td class="casillasA">'+products_has_options[17].op +'<td class="casillasA">'+products_has_options[17].cantidad +'<td class="casillasA">'+products_has_options[17].precio +'<td class="casillasA">'+products_has_options[17].on +'<td class="casillast">'+products_has_options[17].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[18].id +'</td>'+'<td class="casillasA">'+products_has_options[18].op +'<td class="casillasA">'+products_has_options[18].cantidad +'<td class="casillasA">'+products_has_options[18].precio +'<td class="casillasA">'+products_has_options[18].on +'<td class="casillast">'+products_has_options[18].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[19].id +'</td>'+'<td class="casillasA">'+products_has_options[19].op +'<td class="casillasA">'+products_has_options[19].cantidad +'<td class="casillasA">'+products_has_options[19].precio +'<td class="casillasA">'+products_has_options[19].on +'<td class="casillast">'+products_has_options[19].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[20].id +'</td>'+'<td class="casillasA">'+products_has_options[20].op +'<td class="casillasA">'+products_has_options[20].cantidad +'<td class="casillasA">'+products_has_options[20].precio +'<td class="casillasA">'+products_has_options[20].on +'<td class="casillast">'+products_has_options[20].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[21].id +'</td>'+'<td class="casillasA">'+products_has_options[21].op +'<td class="casillasA">'+products_has_options[21].cantidad +'<td class="casillasA">'+products_has_options[21].precio +'<td class="casillasA">'+products_has_options[21].on +'<td class="casillast">'+products_has_options[21].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[22].id +'</td>'+'<td class="casillasA">'+products_has_options[22].op +'<td class="casillasA">'+products_has_options[22].cantidad +'<td class="casillasA">'+products_has_options[22].precio +'<td class="casillasA">'+products_has_options[22].on +'<td class="casillast">'+products_has_options[22].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[23].id +'</td>'+'<td class="casillasA">'+products_has_options[23].op +'<td class="casillasA">'+products_has_options[23].cantidad +'<td class="casillasA">'+products_has_options[23].precio +'<td class="casillasA">'+products_has_options[23].on +'<td class="casillast">'+products_has_options[23].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[24].id +'</td>'+'<td class="casillasA">'+products_has_options[24].op +'<td class="casillasA">'+products_has_options[24].cantidad +'<td class="casillasA">'+products_has_options[24].precio +'<td class="casillasA">'+products_has_options[24].on +'<td class="casillast">'+products_has_options[24].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[25].id +'</td>'+'<td class="casillasA">'+products_has_options[25].op +'<td class="casillasA">'+products_has_options[25].cantidad +'<td class="casillasA">'+products_has_options[25].precio +'<td class="casillasA">'+products_has_options[25].on +'<td class="casillast">'+products_has_options[25].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[26].id +'</td>'+'<td class="casillasA">'+products_has_options[26].op +'<td class="casillasA">'+products_has_options[26].cantidad +'<td class="casillasA">'+products_has_options[26].precio +'<td class="casillasA">'+products_has_options[26].on +'<td class="casillast">'+products_has_options[26].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[27].id +'</td>'+'<td class="casillasA">'+products_has_options[27].op +'<td class="casillasA">'+products_has_options[27].cantidad +'<td class="casillasA">'+products_has_options[27].precio +'<td class="casillasA">'+products_has_options[27].on +'<td class="casillast">'+products_has_options[27].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[28].id +'</td>'+'<td class="casillasA">'+products_has_options[28].op +'<td class="casillasA">'+products_has_options[28].cantidad +'<td class="casillasA">'+products_has_options[28].precio +'<td class="casillasA">'+products_has_options[28].on +'<td class="casillast">'+products_has_options[28].text +'</tr>'+
+                '<tr class="columnasA">'+'<td class="casillasA">'+products_has_options[29].id +'</td>'+'<td class="casillasA">'+products_has_options[29].op +'<td class="casillasA">'+products_has_options[29].cantidad +'<td class="casillasA">'+products_has_options[29].precio +'<td class="casillasA">'+products_has_options[29].on +'<td class="casillast">'+products_has_options[29].text +'</tr>'+
+                '</table>';
+
+
+    categorias.innerHTML = tabla3;
+
+}
+
+
+
+products_has_optons();

@@ -1,0 +1,23 @@
+.menu{
+    height: 6rem;
+    background-color: #FF6C01;
+
+    font-family: 'Signika', sans-serif;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+   
+   
+
+}
+.text{
+    margin: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
