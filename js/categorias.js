@@ -18,7 +18,7 @@ let div = '<div class="cajas">' +
             '</div>' +
 
             '<div class="cajas">' +
-                '<img src="https://github.com/MariaR17/vector/blob/main/ipad.png?raw=true" class="img" style="width:90px;">' +
+                '<img src="https://github.com/MariaR17/vector/blob/main/iPad%20(1).png?raw=true" class="img" style="width:90px;">' +
                 '<p>' + Category[2].ID_categoria +  '</p>'+
                 '<p>' + Category[2].id +  '</p>'+
             '</div>' +

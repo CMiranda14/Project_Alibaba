@@ -8,11 +8,13 @@
     font-weight:600;
     font-size: 4rem;
 }
-#PedidosT{
+#CarrosDeCompras{
+    font-family: 'Mulish', sans-serif;
     padding: 5rem;
     width: 100rem;
     height: auto;
-    margin-left: 34.5rem;
+    /*margin-left: 34.5rem;*/
+
 
     display: flex;
     flex-direction: row;

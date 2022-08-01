@@ -8,7 +8,7 @@ let main =      '<img src="https://cdn.iconscout.com/icon/free/png-256/alibaba-3
                 '</li>'  + 
 
                 '<li>'  + 
-                        '<a href="" class="text"> Acerca de nosotros  </a>'  +  
+                        '<a href="" class="text"> filtro de búsquedad  </a>'  +  
                 '</li>'  + 
         '</ul>'
 
