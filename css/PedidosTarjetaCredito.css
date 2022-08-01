@@ -1,0 +1,42 @@
+.titulo{
+    text-align: center;
+    width: 100rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight:600;
+    font-size: 4rem;
+}
+#PedidosT{
+    padding: 5rem;
+    width: 100rem;
+    height: auto;
+    margin-left: 34.5rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-end;
+
+}
+.titulos{
+    font-size: 1.8rem;
+    margin: 2rem;
+    background-color: #E5AB17;
+    border-radius: 2rem;
+}
+.tabla{
+    text-align: center;
+    border-radius: 4rem;
+    width: 35rem;
+    border-collapse: collapse;
+    margin: auto;
+}
+.texts{
+    opacity: 500;
+    font-size: 1.4rem;
+    height: 3rem;
+    margin: 3rem;
+    border-radius: 2rem;
+}
