@@ -1,6 +1,7 @@
 import {Category} from "./panel.js"
 
-let categorias = document.getElementById("categorias");
+function categoriass(){
+    let categorias = document.getElementById("categorias");
 
 let title = '<h1 class="titulo">' + ' Categorias Alibaba ' +  '</h1>';
 
@@ -48,3 +49,6 @@ let div = '<div class="cajas">' +
             '</div>'
 
 categorias.innerHTML =  title + div; 
+}
+
+categoriass();

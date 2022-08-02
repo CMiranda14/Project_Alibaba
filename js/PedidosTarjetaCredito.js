@@ -12,7 +12,7 @@ function vinculos(){
     let etiqueta6 = '<a href="index.html" class="bt_menu">'+'Categorías'+'</a>';
     let etiqueta7 = '<a href="index.html" class="bt_menu">'+'Ordenes'+'</a>';
     let etiqueta8 = '<a href="index.html" class="bt_menu">'+'Pedidos de productos'+'</a>';
-    let etiqueta9 = '<a href="index.html" class="bt_menu">'+' Pedidos pagados con tarjeta de crédito'+'</a>';
+    let etiqueta9 = '<a href="pedidos.html" class="bt_menu">'+' Pedidos pagados con tarjeta de crédito'+'</a>';
     let etiqueta10 = '<a href="index.html" class="bt_menu">'+'Pedidos realizados por usuarios'+'</a>';
     let etiqueta11 = '<a href="index.html" class="bt_menu">'+'carrito de compras'+'</a>';
     let etiqueta12 = '<a href="vendor.html" class="bt_menu">'+'vendedores'+'</a>';

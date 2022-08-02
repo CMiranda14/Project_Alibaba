@@ -1,7 +1,7 @@
 .titulo{
     text-align: center;
     width: 100rem;
-    margin: 2rem;
+    margin: auto;
     margin-bottom: 4rem;
     font-family: 'Poppins', sans-serif;
     
@@ -10,14 +10,15 @@
 }
 #PedidosT{
     padding: 5rem;
-    width: 100rem;
+    width: 136.5rem;
+
     height: auto;
-    /*margin-left: 34.5rem;*/
+    margin:auto;
 
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    align-items: flex-end;
+    align-items: center;
 
 }
 .titulos{
