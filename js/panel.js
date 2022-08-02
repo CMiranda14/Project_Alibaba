@@ -1,4 +1,4 @@
-export let Category = [
+  export let Category = [
     {
       id: 4000,
       ID_categoria: "Laptops",
@@ -75,95 +75,84 @@ export let Category = [
 
    export let ordenes = [
     {
-        id: 1000, /*ID_pedido*/
-        total_art: 4,  /*artículo_total*/
-        Envíos: 7, /*tarifa_envío*/
-        impuestos: 0.0925, /*impuesto*/
-        Total: 50.02, /*costo_total*/
-        Fecha: 17/2018, /*fecha_pedido*/ 
-        Entrega: 20/2018, /*fecha_entrega*/
-        Nombre: 'Anna Addison', /*nombre_envío*/
-        Direccón: 'San Francisco, CA 96123' /*dirección_envío*/
+        id: 'ID orden : 1000', /*ID_pedido*/
+        total_art: 'Total de productos : 4',  /*artículo_total*/
+        Envíos: 'Envíos gratis: 7', /*tarifa_envío*/
+        impuestos: 'Impuestos: 0.0925', /*impuesto*/
+        Total: 'Total: 50.02', /*costo_total*/
+        Fecha: 'Fecha: 17/2018', /*fecha_pedido*/ 
+        Entrega: 'Nombre: Anna Addison', /*fecha_entrega*/
+        Nombre: 'Entrega: 20/2018', /*nombre_envío*/
+        Direccón: 'Direccón: San Francisco, CA 96123' /*dirección_envío*/
     },
     {
-        id: 1001, 
-        Total_art: 5,  
-        Envíos: 8, 
-        impuestos: 0.06, 
-        Total: 62.45, 
-        Fecha: 15/2018, 
-        Entrega: 18/2018,
-        Nombre: 'Carol Campbell',
-        Direccón: 'Brown St, Gainesville, FL 85321'
+        id: 'ID orden : 1001', 
+        total_art: 'Total de productos : 5',  
+        Envíos: 'Envíos gratis: 8', 
+        impuestos: 'Impuestos: 0.06', 
+        Total: 'Total: 62.45', 
+        Fecha: 'Fecha: 15/2018' , 
+        Entrega: 'Entrega: 18/2018',
+        Nombre: 'Nombre: Carol Campbell',
+        Direccón: 'Direccón: Brown St, Gainesville, FL 85321'
     },
     {
-        id: 1002, 
-        Total_art: 7,  
-        Envíos: 10, 
-        impuestos: 0.087, 
-        Total: 40.33, 
-        Fecha: 14/2018, 
-        Entrega:  17/2018,
-        Nombre: 'Julia Jones',
-        Direccón: 'Seaside St, Seattle, WA 32569 '
+        id: 'ID ordenes : 1002', 
+        total_art: 'Total de productos : 7',  
+        Envíos: 'Envíos gratis: 10', 
+        impuestos: 'Impuestos: 0.087', 
+        total: 'Total: 40.33', 
+        Fecha: 'Fecha: 14/2018', 
+        Entrega: 'Entrega: 17/2018',
+        Nombre: 'Nombre: Julia Jones',
+        Direccón: 'Direccón: Seaside St, Seattle, WA 32569 '
      
     },
     {
-        id: 1003, 
-        Total_art: 9,  
-        Envíos: 20, 
-        impuestos: 0.0625, 
-        Total: 70.98, 
-        Fecha: 12/2018, 
-        Entrega: 25/2018,
-        Nombre: 'Irene Everly',
-        Direccón: '1756 East Dr, Houston, TX 28562	KB63001 '  
+        id: 'ID ordenes: 1003', 
+        total_art: 'Total de productos : 4',  
+        Envíos: 'Envíos gratis: 7', 
+        impuestos: 'Impuestos: 0.0925', 
+        Total: 'Total: 50.02', 
+        Fecha: 'Fecha: 17/2018', 
+        Entrega: 'Entrega: 20/2018',
+        Nombre: 'Nombre: Irene Everly',
+        Direccón: 'Dirección: 1756 East Dr, Houston.'  
     },
     {
-        id: 1004, 
-        Total_art: 6,  
-        Envíos: 7, 
-        impuestos: 0.0625, 
-        Total: 30.45, 
-        Fecha: 16/2018, 
-        Entrega: 19/2018,
-        Nombre: 'Rachel Rose',
-        Direccón: '1465 River Dr, Boston, MA 43625 	IK64001'
+        id: 'ID ordenes: 1004', 
+        total_art: 'Total de productos : 4',  
+        Envíos: 'Envíos gratis: 7', 
+        impuestos: 'Impuestos: 0.0925', 
+        Total:'Total: 50.02', 
+        Fecha: 'Fecha: 17/2018', 
+        Entrega: 'Entrega: 20/2018',
+        Nombre: 'Nombre: Rachel Rose',
+        Direccón: 'Dirección: 1465 River Dr, Boston, MA 43625 	IK64001'
      
     },
     {
-        id: 1000, 
-        Total_art: 4,  
-        Envíos: 7, 
-        impuestos: 0.0925, 
-        Total: 50.02, 
-        Fecha: 17/2018, 
-        Entrega: 20/2018,
-        Nombre: 'Anna Addison',
-        Direccón: 'San Francisco, CA 96123'    
-    },
-    {
-        id: 1005, 
-        Total_art: 5,  
-        Envíos: 8, 
-        impuestos: 0.0625, 
-        Total: 100.2, 
-        Fecha: 13/2018, 
-        Entrega: 16/2018,
-        Nombre: 'Sophie Sutton',
-        Direccón: '1896 West Dr, Portland, OR 65842'
+        id: 'ID ordenes: 1005', 
+        total_art:'Total de productos : 4',  
+        Envíos: 'Envíos gratis: 7', 
+        impuestos: 'Impuestos: 0.0925', 
+        Total: 'Total: 100.2', 
+        Fecha: 'Fecha: 13/2018', 
+        Entrega: 'Entrega: 16/2018',
+        Nombre: 'Nombre: Sophie Sutton',
+        Direccón: 'Dirección: 1896 West Dr, Portland, OR 65842'
     },
 
     {
-        id: 1006, 
-        Total_art: 3,  
-        Envíos: 5, 
-        impuestos: 0.1025, 
-        Total: 58.52, 
-        Fecha: 21/2018, 
-        Entrega: 24/2018,
-        Nombre: 'Wendy West',
-        Direccón: '1252 Vine St, Chicago, IL 73215	XH66001'
+        id: 'ID ordenes: 1006', 
+        total_art: 'Total de productos: 3',  
+        Envíos: 'Envíos gratis: 5', 
+        impuestos: 'Impuestos: 0.1025', 
+        Total: 'Total: 58.52', 
+        Fecha: 'Fecha: 21/2018', 
+        Entrega: 'Entrega: 24/2018',
+        Nombre: 'Nombre: Wendy West',
+        Direccón: 'Dirección: 1252 Vine St, Chicago, IL 73215	XH66001'
     }
 
 

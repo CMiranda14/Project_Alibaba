@@ -9,9 +9,9 @@
 }
 #ProductO {
     padding: 5rem;
-    width: 104.9rem;
+    max-width: 120rem;
     height: auto;
-    /*margin-left: 30rem;*/
+    margin-left: 30rem;
  
 
     display: flex;

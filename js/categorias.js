@@ -1,9 +1,10 @@
 import {Category} from "./panel.js"
 
 function categoriass(){
+    
     let categorias = document.getElementById("categorias");
 
-let title = '<h1 class="titulo">' + ' Categorias Alibaba ' +  '</h1>';
+    /*let title = '<h1 class="titulo">' + ' Categorias Alibaba ' +  '</h1>';*/
 
 
 let div = '<div class="cajas">' +
@@ -48,7 +49,7 @@ let div = '<div class="cajas">' +
                 '<p>' + Category[6].id +  '</p>'+
             '</div>'
 
-categorias.innerHTML =  title + div; 
+categorias.innerHTML =  div; 
 }
 
 categoriass();

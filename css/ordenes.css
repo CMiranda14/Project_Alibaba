@@ -1,13 +1,14 @@
 #order {
-    padding: 5rem;
-    width: 100rem;
+    padding: 3rem;
+    max-width: 120rem;
     height: auto;
-    /*margin-left: 34.5rem;*/
+    margin-left: 20rem;
+
 
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    /*align-items: flex-end;*/
 
 }
 .cajas{
@@ -25,9 +26,9 @@
     font-weight: 500;
     font-family: 'Mulish', sans-serif;
 
-    margin: 3rem;
+    margin: 2rem;
     padding: 1.6rem;
-    height: 26.6rem;
+    height: 27rem;
     width: 22rem;
 
     background-color: #ECF0F1 ;
@@ -35,9 +36,11 @@
     border-radius: 2rem;
 }
 .titulo{
+    
     text-align: center;
-    width: 100rem;
-    margin: 2rem;
+    width: 100%;
+    margin-top: 7rem;
+    padding: 3rem;
     font-family: 'Poppins', sans-serif;
     
     font-weight:600;

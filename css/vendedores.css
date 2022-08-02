@@ -9,9 +9,9 @@
 }
 #Distribuidores {
     padding: 5rem;
-    width: 104.9rem;
+    max-width: 104.9rem;
     height: auto;
-    /*margin-left: 30rem;*/
+    margin-left: 28rem;
  
 
     display: flex;

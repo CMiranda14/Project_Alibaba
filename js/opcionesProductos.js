@@ -1,6 +1,7 @@
 import {option} from "./panel.js"
 
-let ProductO = document.getElementById("ProductO");
+function products(){
+    let ProductO = document.getElementById("ProductO");
 
 let title = '<h1 class="titulo">' + ' Opciones de Producto ' +  '</h1>';
 
@@ -317,3 +318,5 @@ let div = '<div class="cajas">' +
         '</div>' 
     
 ProductO.innerHTML =  title + div; 
+}
+products();
