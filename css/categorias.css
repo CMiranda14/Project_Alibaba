@@ -11,6 +11,7 @@
     max-width: 110rem;
     height: auto;
     margin-left: 20rem;
+    margin-top: 10rem;
 
     display: flex;
     flex-direction: row;
@@ -35,7 +36,7 @@
 
     font-size: 1.8rem;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mulish', sans-serif;
 
     margin: 3rem;
     padding: 1.6rem;
@@ -45,6 +46,10 @@
     background-color: #ECF0F1 ;
     /*opacity: 0.5;*/
     border-radius: 2rem;
+}
+.cajas:hover{
+    color: black;
+    background-color: #FAD7A0;
 }
 img{
     display: flex;

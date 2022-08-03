@@ -495,6 +495,50 @@ export let compras = [
  
 ]
   
+/*************************************************************************************************************** */
+
+export let pedidosUsuarios = [
+
+
+  /*id_usuario*/ /*id_pedido*/
+  {
+    ID_User: 'ID Usuario :100',
+    ID_Pedido: 'ID Pedido: 1000',
+
+  },
+  {
+    ID_User: 'ID Usuario :101',
+    ID_Pedido: 'ID Pedido: 1002',
+
+  },
+  {
+    ID_User: 'ID Usuario :102',
+    ID_Pedido: 'ID Pedido: 1002',
+
+  },
+  {
+    ID_User: 'ID Usuario :103',
+    ID_Pedido: 'ID Pedido: 1003',
+
+  },
+  {
+    ID_User: 'ID Usuario :104',
+    ID_Pedido: 'ID Pedido: 1004',
+
+  },
+  {
+    ID_User: 'ID Usuario :105',
+    ID_Pedido: 'ID Pedido: 1005',
+
+  },
+  {
+    ID_User: 'ID Usuario :106',
+    ID_Pedido: 'ID Pedido: 1006',
+
+  },
+
+
+];
   
    
   

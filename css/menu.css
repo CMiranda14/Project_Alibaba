@@ -1,7 +1,9 @@
 #menu{
-    /*position: fixed;*/
+    position: fixed;
     height: 6rem;
     width: 100%;
+    left: 0;
+    top: 0;
     background-color: #FF6C01;
 
     font-family: 'Poppins', sans-serif;
@@ -33,4 +35,8 @@
 }
 .logo{
     width: 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
