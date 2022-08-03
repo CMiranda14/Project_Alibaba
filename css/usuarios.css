@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-
-
 body{
     font-family: 'Signika', sans-serif;
 }
 
-=======
->>>>>>> 345767f0a349ba05940c5541b2c8bee69861ea47
 .vt{
     margin:auto;
     margin-top:7rem;
@@ -483,9 +478,21 @@ body{
 
 }
 
-<<<<<<< HEAD
-/*-----------------------------------------*/
-=======
+/*----------------------------------------*/
+#orders_has_products{
 
+    margin:auto;
+    margin-top:13rem;
+    width:90rem;
+    height:auto;
+    background-color:rgba(212, 212, 212, 0.812);
+   display:flex;
+   
+   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.682);
+    
+    border-radius:20px;
+    padding-bottom: 2rem;
+    margin-left:38rem;
+   
 
->>>>>>> 345767f0a349ba05940c5541b2c8bee69861ea47
+}
