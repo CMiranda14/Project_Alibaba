@@ -344,12 +344,15 @@ body{
 
 /*---------------------------------------------*/
 
-.caja_products_option{
-    position:absolute;
+#caja_products_option{
+   
     height:auto;
     width:100rem;
     margin:auto;
-    
+    display:flex;
+    background-color:rgba(212, 212, 212, 0.812);
+    border: rgba(0, 0, 0, 0.682) solid 5px;
+    margin-left:35rem;
 }
 
 
@@ -358,10 +361,10 @@ body{
     margin-top:7rem;
     height:auto;
     padding-top:1rem;
-    margin-left:40rem; 
-    background-color:rgba(212, 212, 212, 0.812);
+    margin-left:5rem; 
+
     padding:5rem;
-    border: rgba(0, 0, 0, 0.682) solid 5px;
+
     border-radius: 10px;
 }
 
@@ -377,6 +380,7 @@ body{
     padding:0.5rem;
     font-size:1.5rem;
     border:rgba(12, 12, 59, 0.6) solid 5px;
+    height:5rem;
 }
 
 
@@ -424,53 +428,3 @@ body{
 }
 
 /*-----------------------------------------*/
-#vendor{
-    display:flex;
-    margin-left:25rem;
-    margin-top:10rem;
-
-}
-
-#vendor1{
-    display:flex;
-    margin-left:25rem;
-}
-
-.descripcion_vendor{
-    padding-left:2rem;
-    padding-top:0.4rem;
-    font-size:1.5rem;
-    text-align:justify;
-   
- 
-}
-
-.img_vendor{
-    width:7rem;
-    height:7rem;
-    padding:1rem;
-    margin-left:20rem;
-  
-    
-}
-
-.img_vendor1{
-    width:15rem;
-    height:5rem;
-    padding:1rem;
-    margin-left:13rem;
-    margin-bottom:2rem;
-}
-
-.caja2{
-    width:30rem;
-    height:20rem;
-    margin-left:5rem;
-
-    margin-top:2rem;
-    border-radius:10px;
-    background-color: rgb(255, 254, 254) ;
-    margin-right:2rem;
-    border:rgb(214, 134, 5) solid 5px;
-    
-}

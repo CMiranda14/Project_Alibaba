@@ -23,10 +23,10 @@ export const product_sold_vendor = [
 function tabla_1(){
 
     let cuadro_1 = document.querySelector("#caja_product_vendidos");
-
-
-
-
+  
+  
+  
+  
     let tabla1 = '<table class="Tabla" border="0">'+ 
                 '<h1 class="title">'+'Proveedor y producto Asignando'+'</h1>'+
                 '<tr class="columnas1">'+'<td class="casillas1">'+'ID Proveedor'+'</td>'+'<td class="casillas1">'+'ID Producto'+ '</td>' +'</tr>'+
@@ -39,8 +39,8 @@ function tabla_1(){
                 '<tr class="columnas">'+'<td class="casillas">'+product_sold_vendor[6].id +'</td>'+'<td class="casillas">'+product_sold_vendor[6].di + '</tr>'+
                 '<tr class="columnas">'+'<td class="casillas">'+product_sold_vendor[7].id +'</td>'+'<td class="casillas">'+product_sold_vendor[7].di + '</tr>'+
                 '</table>';
-
-
+  
+  
     let tabla2 = '<table class="Tabla1" border="0">'+ 
                 '<tr class="columnas1">'+'<td class="casillas1">'+'ID Proveedor'+'</td>'+'<td class="casillas1">'+'ID Producto'+ '</td>' +'</tr>'+
                 '<tr class="columnas">'+'<td class="casillas">'+product_sold_vendor[8].id +'</td>'+'<td class="casillas">'+product_sold_vendor[8].di + '</tr>'+
@@ -51,12 +51,13 @@ function tabla_1(){
                 '<tr class="columnas">'+'<td class="casillas">'+product_sold_vendor[13].id +'</td>'+'<td class="casillas">'+product_sold_vendor[13].di + '</tr>'+
                 '<tr class="columnas">'+'<td class="casillas">'+product_sold_vendor[14].id +'</td>'+'<td class="casillas">'+product_sold_vendor[14].di + '</tr>'+
                 '</table>';
-
+  
         cuadro_1.innerHTML = tabla1 + tabla2;
+  
+  }
+  
+  tabla_1();
 
-}
-
-tabla_1();
 
 
 
