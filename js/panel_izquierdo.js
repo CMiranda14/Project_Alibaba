@@ -1,23 +1,24 @@
 import { products } from "./products.js";
 
 
+
 function vinculos(){
     
     let barra_iz = document.querySelector("#barra_izquierda");
 
     let etiqueta = '<a href="productos.html" class="bt_menu">'+'Productos'+'</a>';
-    let etiqueta1 = '<a href="index.html" class="bt_menu">'+'Proveedor de productos vendidos'+'</a>';
-    let etiqueta2 = '<a href="index.html" class="bt_menu">'+'Categoria de productos'+'</a>';
+    let etiqueta1 = '<a href="product_sold_vendor.html" class="bt_menu">'+'Proveedor de productos vendidos'+'</a>';
+    let etiqueta2 = '<a href="Categoria_productos.html" class="bt_menu">'+'Categoria de productos'+'</a>';
     let etiqueta4 = '<a href="index.html" class="bt_menu">'+'Opciones de productos'+'</a>';
-    let etiqueta5 = '<a href="index.html" class="bt_menu">'+'Productos añadidos'+'</a>';
+    let etiqueta5 = '<a href="carts_has_products.html" class="bt_menu">'+'Productos añadidos'+'</a>';
     let etiqueta6 = '<a href="index.html" class="bt_menu">'+'Categorías'+'</a>';
     let etiqueta7 = '<a href="index.html" class="bt_menu">'+'Ordenes'+'</a>';
     let etiqueta8 = '<a href="index.html" class="bt_menu">'+'Pedidos de productos'+'</a>';
     let etiqueta9 = '<a href="index.html" class="bt_menu">'+' Pedidos pagados con tarjeta de crédito'+'</a>';
     let etiqueta10 = '<a href="index.html" class="bt_menu">'+'Pedidos realizados por usuarios'+'</a>';
     let etiqueta11 = '<a href="index.html" class="bt_menu">'+'carrito de compras'+'</a>';
-    let etiqueta12 = '<a href="index.html" class="bt_menu">'+'vendedores'+'</a>';
-    let etiqueta13 = '<a href="index.html" class="bt_menu">'+'Opciones'+'</a>';
+    let etiqueta12 = '<a href="index.html.html" class="bt_menu">'+'vendedores'+'</a>';
+    let etiqueta13 = '<a href="option.html" class="bt_menu">'+'Opciones'+'</a>';
 
     barra_iz.innerHTML = etiqueta + etiqueta1 + etiqueta2 +
                          etiqueta4 + etiqueta5+ etiqueta6+ 
@@ -174,3 +175,8 @@ let p15 = '<div class="caja1">'+
 }
 
 productos3();
+
+
+
+
+

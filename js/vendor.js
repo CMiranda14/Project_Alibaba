@@ -1,11 +1,11 @@
-let vendor = [
+const vendor = [
 
     /*proveedor_id*/ /*proveedor_nombre*/ /*proveedor_teléfono*/ /*proveedor_email*/
-    [5000,	'Apple', 	    '2569561656',	'apple@gmail.com'],
-    [5100,	'Microsoft', 	'6165486561',	'microsoft@gmail.com'],
-    [5200,	'Lenovo', 	    '3215689466',	'lenovo@gmail.com'],
-    [5300,	'Asus', 	    '9568484613',	'asus@gmail.com'],
-    [5400,	'Dell', 	    '8465473132',	'dell@gmail.com'],
-    [5500,	'Monoprice', 	'3189831684',	'monoprice@gmail.com'],
-    [5600,	'Sony', 	    '4846531876',	'sony@gmail.com'],
+    {proveedor:5000,	name:'Apple', 	    phone:'2569561656',	email:'apple@gmail.com'},
+    {proveedor:5100,	name:'Microsoft', 	phone:'6165486561',	email:'microsoft@gmail.com'},
+    {proveedor:5200,	name:'Lenovo', 	    phone:'3215689466',	email:'lenovo@gmail.com'},
+    {proveedor:5300,	name:'Asus', 	    phone:'9568484613',	email:'asus@gmail.com'},
+    {proveedor:5400,	name:'Dell', 	    phone:'8465473132',	email:'dell@gmail.com'},
+    {proveedor:5500,	name:'Monoprice', 	phone:'3189831684',	email:'monoprice@gmail.com'},
+    {proveedor:5600,	name:'Sony', 	    phone:'4846531876',	email:'sony@gmail.com'},
 ];

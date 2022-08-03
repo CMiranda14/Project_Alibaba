@@ -1,15 +1,18 @@
+
+
 body{
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/538/894/non_2x/abstract-black-hexagon-pattern-on-yellow-neon-background-technology-style-honeycomb-vector.jpg");
+    font-family: 'Signika', sans-serif;
 }
 
 .vt{
     margin:auto;
-    margin-top:10rem;
+    margin-top:7rem;
     width:90rem;
     height:50rem;
     background-color:rgba(8, 25, 45, 0.91);
     position:relative;
     border-radius:2%;
+    top:3rem;
 }
 
 
@@ -126,16 +129,26 @@ body{
 
 }
 
+.bt_menu:visited {
+    color:white;
+    width:20rem;
+    height:4.5rem;
+    background-color: rgba(255, 106, 0, 0.649) ;
+   
+
+}
+
 #barra_izquierda{
     width:20rem;
     height:67.5rem;
-    background-color:rgba(12, 12, 59, 0.6);
+    background-color:rgb(12, 12, 59);
     position:absolute;
     display:flex;
     flex-direction: column;
     position: fixed;
-
-    
+	left: 0; 
+	top:6rem;
+	position: fixed;
 
 }
 
@@ -197,7 +210,7 @@ body{
     width:50rem;
     height:43rem;
 
-    margin-top:5rem;
+    margin-top:10rem;
     border-radius:10px;
     background-color: white;
     margin-right:2rem;
@@ -236,3 +249,182 @@ body{
     text-align:justify;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+
+/*----------------------------------*/
+
+
+
+
+#caja_product_vendidos{
+    margin:auto;
+    margin-top:13rem;
+    width:90rem;
+    height:50rem;
+    background-color:rgba(212, 212, 212, 0.812);
+    display:flex;
+    
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.682);
+    border-radius:20px;
+    padding-bottom: 2rem;
+    margin-left:38rem;
+   
+}
+
+.Tabla{
+    margin:auto;
+    width:30rem;
+    height:auto;
+    padding-top:6rem;
+    margin-right:0rem;
+}
+
+
+.title{
+    font-size:25px;
+    font-weight:800;
+    position:absolute;
+    margin-top:2rem;
+    margin-left:22.5rem;
+  
+}
+
+.Tabla1{
+    margin:auto;
+    width:30rem;
+    height:auto;
+    padding-top:1rem;
+}
+
+.columnas{
+    background-color:  rgba(197, 227, 254, 0.712)  ;
+    text-align:center;
+    padding:1rem;
+}
+
+.columnas1{
+    background-color: rgb(255, 187, 0) ;
+    text-align:center;
+}
+
+.casillas{
+    padding:0.5rem;
+    font-size:1.5rem;
+    border:rgba(12, 12, 59, 0.6) solid 5px;
+}
+
+.casillas1{
+    padding:0.5rem;
+    font-size:1.5rem;
+    border:rgba(12, 12, 59, 0.6) solid 5px;
+}
+
+
+/*-------------------------------------------*/
+
+
+#caja_categoria_productos{
+
+    margin:auto;
+    margin-top:13rem;
+    width:90rem;
+    height:50rem;
+    background-color:rgba(212, 212, 212, 0.812);
+   display:flex;
+   
+   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.682);
+    
+    border-radius:20px;
+    padding-bottom: 2rem;
+    margin-left:38rem;
+   
+
+}
+
+
+/*---------------------------------------------*/
+
+#caja_products_option{
+   
+    height:auto;
+    width:100rem;
+    margin:auto;
+    display:flex;
+    background-color:rgba(212, 212, 212, 0.812);
+    border: rgba(0, 0, 0, 0.682) solid 5px;
+    margin-left:35rem;
+}
+
+
+.TablaA{
+    text-align:center;
+    margin-top:7rem;
+    height:auto;
+    padding-top:1rem;
+    margin-left:5rem; 
+
+    padding:5rem;
+
+    border-radius: 10px;
+}
+
+.columnas2{
+    background-color: rgb(255, 187, 0) ;
+    text-align:center;
+    font-weight: 800;
+ 
+    
+}
+
+.casillas2{
+    padding:0.5rem;
+    font-size:1.5rem;
+    border:rgba(12, 12, 59, 0.6) solid 5px;
+    height:5rem;
+}
+
+
+.columnasA{
+    background-color:  rgba(197, 227, 254, 0.712)  ;
+    text-align:center;
+    padding:1rem;
+}
+
+.casillasA{
+    height:5rem;
+    width: 10rem;
+    padding:0.5rem;
+    font-size:1.5rem;
+    border:rgba(12, 12, 59, 0.6) solid 5px;
+}
+
+.casillast{
+    height:5rem;
+    width: 30rem;
+    padding:0.5rem;
+    font-size:1.5rem;
+    border:rgba(12, 12, 59, 0.6) solid 5px;
+}
+
+/*--------------------------------------*/
+
+#carts_has_products{
+    display:flex;
+    width:100rem;
+    margin-left:35rem; 
+    background-color:rgba(212, 212, 212, 0.812);
+    padding:5rem;
+    border-radius: 10px;
+    margin-top:7rem;
+}
+
+.Tablab{
+    text-align:center;
+    height:auto;
+    padding-top:1rem;
+    margin-right:2rem;
+    margin-left:2rem;
+
+}
+
+/*-----------------------------------------*/
