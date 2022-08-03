@@ -1,23 +1,51 @@
-.menu{
+#menu{
+    position: fixed;
     height: 6rem;
+    width: 100%;
+    left: 0;
+    top: 0;
     background-color: #FF6C01;
 
-    font-family: 'Signika', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     display: flex;
-    justify-content:flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
    
    
+=======
+    flex-wrap: nowrap;
+>>>>>>> 345767f0a349ba05940c5541b2c8bee69861ea47
 
 }
+.nav{
+    list-style: none;
+    width: 360px;
+    height: 25px;
+    margin-left: 2rem;
+	
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+       
+}
 .text{
+    /*display: block;*/
     margin: 2rem;
     font-size: 2rem;
     text-decoration: none;
     color: white;
+}
+.logo{
+    width: 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

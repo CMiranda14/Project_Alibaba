@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 
 
 body{
     font-family: 'Signika', sans-serif;
 }
 
+=======
+>>>>>>> 345767f0a349ba05940c5541b2c8bee69861ea47
 .vt{
     margin:auto;
     margin-top:7rem;
@@ -32,6 +35,59 @@ body{
     text-decoration:none;
     color:rgba(12, 12, 59, 0.851);
    
+}
+
+.bt_menu{
+    width:20rem;
+    height:4.5rem;
+    color:white;
+    
+    font-size:1.5rem;
+    
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    cursor:pointer;
+    transition:1s;
+    margin-top:0.5rem;
+    text-align:center;
+    padding-top:0.5rem;
+    padding-right:1rem;
+
+    border-bottom: rgba(255, 106, 0, 0.841) solid 2px;
+    
+    
+    
+}
+
+.bt_menu:hover {
+    color:white;
+    width:20rem;
+    height:4.5rem;
+    background-color: rgba(255, 106, 0, 0.649) ;
+    transition:1s;
+
+}
+
+.bt_menu:visited {
+    color:white;
+    width:20rem;
+    height:4.5rem;
+    background-color: rgba(255, 106, 0, 0.649) ;
+   
+
+}
+#barra_izquierda{
+    width:20rem;
+    height:67.5rem;
+    background-color:rgb(12, 12, 59);
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+	left: 0; 
+	top:6rem;
+	position: fixed;
+
 }
 
 
@@ -427,4 +483,9 @@ body{
 
 }
 
+<<<<<<< HEAD
 /*-----------------------------------------*/
+=======
+
+
+>>>>>>> 345767f0a349ba05940c5541b2c8bee69861ea47
